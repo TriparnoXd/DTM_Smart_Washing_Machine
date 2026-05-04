@@ -7,16 +7,6 @@ export default function WashBotStatus({
   state: string
   mousePosition: { x: number; y: number }
 }) {
-  const getStatusEmoji = () => {
-    switch(state) {
-      case 'idle': return '😊'
-      case 'washing': return '🧼'
-      case 'spinning': return '🌀'
-      case 'done': return '✨'
-      default: return '😊'
-    }
-  }
-
   const getStatusText = () => {
     switch(state) {
       case 'idle': return 'Ready to wash!'
