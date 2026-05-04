@@ -14,8 +14,8 @@ export default function WashControls({
   washState, 
   setWashState 
 }: { 
-  washState: string
-  setWashState: (state: string) => void
+  washState: 'idle' | 'washing' | 'spinning' | 'done'
+  setWashState: (state: 'idle' | 'washing' | 'spinning' | 'done') => void
 }) {
   const [selectedProgram, setSelectedProgram] = useState('cotton')
 

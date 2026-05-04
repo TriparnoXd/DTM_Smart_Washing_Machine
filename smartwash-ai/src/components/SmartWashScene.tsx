@@ -29,7 +29,6 @@ export default function SmartWashScene() {
         <FeatureHotspots 
           activeFeature={activeFeature}
           setActiveFeature={setActiveFeature}
-          mousePosition={mousePosition}
         />
 
         {/* Real-time Data Display */}

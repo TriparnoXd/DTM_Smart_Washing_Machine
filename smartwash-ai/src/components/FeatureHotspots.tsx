@@ -56,12 +56,10 @@ const IconMap = {
 
 export default function FeatureHotspots({ 
   activeFeature, 
-  setActiveFeature,
-  mousePosition 
+  setActiveFeature
 }: {
   activeFeature: string | null
   setActiveFeature: (id: string) => void
-  mousePosition: { x: number; y: number }
 }) {
   return (
     <>

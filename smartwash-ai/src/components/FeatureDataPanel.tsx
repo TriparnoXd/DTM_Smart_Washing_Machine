@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Droplet, Activity, Brain, Zap, TrendingDown, Target, Database, Award, DollarSign, CheckCircle, Weight, BarChart3 } from 'lucide-react'
 
 const IconMap = {
